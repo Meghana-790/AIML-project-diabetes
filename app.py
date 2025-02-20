@@ -61,7 +61,7 @@ if st.button('Diabetes test button'):
 if st.button('Show Model Acurracy'):
  
 
- test_data=pd.read_csv(r"C:\\Users\\mumma\\OneDrive\\Desktop\\proj1 aiml\\diabetes.csv")
+ test_data=pd.read_csv(r"diabetes.csv")
 
  x_test=test_data.drop(columns=["Outcome"])
  y_test=test_data["Outcome"]
